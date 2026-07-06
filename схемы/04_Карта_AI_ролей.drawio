@@ -1,0 +1,26 @@
+<mxfile host="app.diagrams.net" modified="2026-07-06T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="github">
+  <diagram name="Карта AI ролей" id="ordin-agent-map">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ORDIN — карта AI-ролей" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="40" width="500" height="40" as="geometry" /></mxCell>
+        <mxCell id="ceo" value="CEO ORDIN&lt;br&gt;принимает решения" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="650" y="130" width="220" height="90" as="geometry" /></mxCell>
+        <mxCell id="architect" value="AI Архитектор&lt;br&gt;архитектура системы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="160" y="310" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="process" value="Архитектор процессов&lt;br&gt;регламенты и логика" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="430" y="310" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="sales" value="Руководитель продаж&lt;br&gt;сделки, КП, касания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="700" y="310" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="finance" value="Финансовый директор&lt;br&gt;маржа, платежи, прибыль" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="970" y="310" width="240" height="80" as="geometry" /></mxCell>
+        <mxCell id="engineer" value="Главный инженер&lt;br&gt;риски, ТЗ, результат" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="300" y="520" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="lawyer" value="Юрист&lt;br&gt;договоры и защита денег" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="580" y="520" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="contractors" value="Менеджер подрядчиков&lt;br&gt;пул, качество, сроки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="860" y="520" width="240" height="80" as="geometry" /></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="architect" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="process" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="sales" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="finance" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="engineer" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="lawyer" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="contractors" target="ceo"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
