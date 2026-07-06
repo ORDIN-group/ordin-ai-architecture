@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" modified="2026-07-06T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="github">
+  <diagram name="Карта данных" id="ordin-data-map">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ORDIN AI — карта данных" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="40" width="500" height="40" as="geometry" /></mxCell>
+        <mxCell id="bitrix" value="Bitrix24&lt;br&gt;источник данных" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="150" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="companies" value="Компании" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13" vertex="1" parent="1"><mxGeometry x="80" y="270" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="contacts" value="Контакты" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13" vertex="1" parent="1"><mxGeometry x="80" y="340" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="deals" value="Сделки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13" vertex="1" parent="1"><mxGeometry x="80" y="410" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="activities" value="Дела / активности" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=13" vertex="1" parent="1"><mxGeometry x="80" y="480" width="160" height="50" as="geometry" /></mxCell>
+        <mxCell id="raw" value="RAW-слой&lt;br&gt;сырые выгрузки" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="390" y="250" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="processing" value="Обработка&lt;br&gt;чистые таблицы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="700" y="250" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="aggregation" value="Агрегация&lt;br&gt;связи и метрики" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="1010" y="250" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="signals" value="Сигналы&lt;br&gt;что требует внимания" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="700" y="420" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="dashboard" value="Дашборды&lt;br&gt;управленческий обзор" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="1010" y="420" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="agents" value="AI-агенты&lt;br&gt;анализ и рекомендации" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=15;fontStyle=1" vertex="1" parent="1"><mxGeometry x="1010" y="590" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="bitrix" target="raw"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="companies" target="raw"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="contacts" target="raw"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="deals" target="raw"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="activities" target="raw"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="raw" target="processing"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="processing" target="aggregation"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="aggregation" target="signals"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="signals" target="dashboard"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="dashboard" target="agents"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
