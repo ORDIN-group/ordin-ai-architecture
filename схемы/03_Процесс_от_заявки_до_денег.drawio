@@ -1,0 +1,32 @@
+<mxfile host="app.diagrams.net" modified="2026-07-06T00:00:00.000Z" agent="ChatGPT" version="24.7.17" type="github">
+  <diagram name="Процесс от заявки до денег" id="ordin-process-money">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="ORDIN — процесс от заявки до денег" style="text;html=1;strokeColor=none;fillColor=none;fontSize=26;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="40" width="650" height="40" as="geometry" /></mxCell>
+        <mxCell id="lead" value="Новая заявка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="180" width="170" height="70" as="geometry" /></mxCell>
+        <mxCell id="deal" value="Сделка в Bitrix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="320" y="180" width="180" height="70" as="geometry" /></mxCell>
+        <mxCell id="contractors" value="Запрос подрядчикам" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="580" y="180" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="calc" value="Сбор КП и расчёт маржи" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="850" y="180" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="offer" value="КП заказчику" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="1150" y="180" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="contract" value="Договор / заявка / ТЗ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="1150" y="360" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="production" value="Производство работ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="850" y="360" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="quality" value="Контроль качества и сроков" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="580" y="360" width="220" height="70" as="geometry" /></mxCell>
+        <mxCell id="result" value="Результат заказчику" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="320" y="360" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="docs" value="Закрывающие документы" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=14;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="360" width="190" height="70" as="geometry" /></mxCell>
+        <mxCell id="money" value="Деньги и прибыль" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#82b366;fontSize=16;fontStyle=1" vertex="1" parent="1"><mxGeometry x="80" y="540" width="220" height="80" as="geometry" /></mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="lead" target="deal"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="deal" target="contractors"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="contractors" target="calc"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="calc" target="offer"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="offer" target="contract"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="contract" target="production"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="production" target="quality"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="quality" target="result"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="result" target="docs"><mxGeometry relative="1" as="geometry" /></mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;" edge="1" parent="1" source="docs" target="money"><mxGeometry relative="1" as="geometry" /></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
