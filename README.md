@@ -1,6 +1,11 @@
-# ORDIN AI — архитектура системы
+# ORDIN AI — архив схем ранней архитектуры
 
-Этот репозиторий — единое место хранения визуальной архитектуры ORDIN.
+**Статус: `historical` (18.11.2026). Этот репозиторий НЕ канонический источник текущих правил ORDIN AI и не описание действующей CRM.**
+
+Канон Core/Skills/Process Registry до cutover: [ORDIN-group/ordin-ops-system](https://github.com/ORDIN-group/ordin-ops-system). Действующая CRM: self-hosted Twenty / [ORDIN Workspace](https://github.com/ORDIN-group/ordin-workspace). Решение о переносе бизнес-регламентов в Workspace: [INIT-030](https://github.com/ORDIN-group/ordin-ops-system/issues/175). Схемы draw.io ниже — исторические снимки архитектуры, не инструкции к подключению Bitrix24/Aspro/Google/n8n или к изменению бизнес-данных.
+
+
+Этот репозиторий сохранил ранние версии визуальной архитектуры ORDIN; он не является единственным актуальным местом хранения схем.
 
 Здесь будут лежать:
 
@@ -13,7 +18,7 @@
 
 1. Открыть diagrams.net: https://app.diagrams.net/
 2. Выбрать `File → Open From → GitHub`.
-3. Найти репозиторий `ORDIN-AI/ordin-ai-architecture`.
+3. Найти репозиторий `ORDIN-group/ordin-ai-architecture`.
 4. Открыть нужный файл из папки `схемы`.
 
 ## Главные файлы
